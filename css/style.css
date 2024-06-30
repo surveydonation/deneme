@@ -298,7 +298,8 @@ footer p{
     }
 
     .container {
-        padding: 10px; /* Container padding ayarı */
+        max-width: 760px;
+        margin: auto;
     }
 
     .header {
@@ -315,7 +316,20 @@ footer p{
         font-size: 18px; /* Font ayarları */
     }
 
-    #one, #two, #three {
+    #one {
+        background: rgba(79, 157, 166, 0.1);
+        text-align: center; /* İçerikleri ortala */
+        margin-bottom: 20px; /* Alt boşluk */
+    }
+
+    #two {
+        background: rgba(255, 89, 89, 0.1);
+        text-align: center; /* İçerikleri ortala */
+        margin-bottom: 20px; /* Alt boşluk */
+    }
+
+    #three {
+        background: #FFF4D6;
         text-align: center; /* İçerikleri ortala */
         margin-bottom: 20px; /* Alt boşluk */
     }
