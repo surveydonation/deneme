@@ -290,6 +290,7 @@ footer p{
 
     body {
         font-size: 16px; /* Varsayılan font büyüklüğü */
+        overflow-x: hidden; /* Yatay kaydırmayı kapat */
     }
 
     h1 {
@@ -356,5 +357,10 @@ footer p{
 
     .vol {
         font-size: 20px; /* Yazı boyut ayarı */
+        text-align: center; /* Metin hizalaması */
+    }
+
+    .footer {
+        padding: 20px 0; /* Footer padding ayarı */
     }
 }
