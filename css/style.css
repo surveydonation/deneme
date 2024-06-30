@@ -290,7 +290,6 @@ footer p{
 
     body {
         font-size: 16px; /* Varsayılan font büyüklüğü */
-        overflow-x: hidden; /* Yatay kaydırmayı kapat */
     }
 
     h1 {
@@ -349,18 +348,23 @@ footer p{
         flex-direction: column-reverse; /* Sıralama ayarı */
     }
 
+    .volunteer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     .volunteer-item {
-        flex: 0 0 100%; /* Gönüllü ayarları */
-        margin-right: 0; /* Sağ boşluk ayarı */
-        margin-bottom: 20px; /* Alt boşluk ayarı */
+        flex: 0 0 calc(50% - 10px); /* İki sütunlu ızgara için genişlik */
+        margin-bottom: 20px; /* Alt boşluk */
+    }
+
+    .volunteer-item img {
+        width: 100%;
+        border-radius: 10px; /* Köşe yuvarlama */
     }
 
     .vol {
         font-size: 20px; /* Yazı boyut ayarı */
-        text-align: center; /* Metin hizalaması */
-    }
-
-    .footer {
-        padding: 20px 0; /* Footer padding ayarı */
     }
 }
