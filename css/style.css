@@ -52,7 +52,7 @@ p{
 .donate{
     text-align: center;
     color: #000;
-    padding-top: 23%;
+    padding-top: 28%;
 }
 
 
@@ -324,90 +324,28 @@ footer p{
         margin-bottom: 20px; /* Boşluk ayarları */
     }
 
-    .cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 50px 0;
-    }
-
     .card-items {
-        flex: 0 0 calc(50% - 20px); /* Kartların genişliği */
-        padding: 20px; /* Kart içi boşluk */
-        margin-bottom: 20px; /* Kartlar arası boşluk */
-        text-align: center; /* Metin hizalama */
-        border: 1px solid #ccc; /* Kart sınır çizgisi */
-        border-radius: 5px; /* Kart köşe yuvarlama */
-        background-color: #fff; /* Kart arka plan rengi */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Kart gölgesi */
-    }
-
-    .card-items:hover {
-        background-color: #f5f5f5; /* Kart üzerine gelindiğinde arka plan rengi */
+        flex: 0 0 100%; /* Kart ayarları */
     }
 
     .amount {
         width: 100%; /* Miktar ayarları */
-        padding: 15px; /* Miktar girişi iç boşluk */
-        border-radius: 5px; /* Miktar girişi köşe yuvarlama */
-        border: 1px solid #ccc; /* Miktar girişi sınır çizgisi */
-        font-size: 16px; /* Miktar girişi font büyüklüğü */
-        box-sizing: border-box; /* Kutu modeli */
     }
 
     .plan-cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-bottom: 50px;
+        flex: 0 0 calc(50% - 20px); /* Plan ayarları */
     }
 
     .plan-card-items {
-        flex: 0 0 calc(50% - 20px); /* Plan kartları genişlik */
-        padding: 20px; /* Plan kartları iç boşluk */
-        margin-bottom: 20px; /* Plan kartları arası boşluk */
-        text-align: center; /* Plan kartları metin hizalama */
-        border: 1px solid #ccc; /* Plan kartları sınır çizgisi */
-        border-radius: 5px; /* Plan kartları köşe yuvarlama */
-        background-color: #fff; /* Plan kartları arka plan rengi */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Plan kartları gölge */
-    }
-
-    .plan-card-items img {
-        max-width: 100px; /* Plan kartları resim maksimum genişlik */
-        height: auto; /* Plan kartları resim yükseklik otomatik */
-        margin-bottom: 10px; /* Plan kartları resim alt boşluk */
+        flex: 0 0 calc(50% - 20px); /* Plan ayarları */
     }
 
     .live-items {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-bottom: 50px;
-    }
-
-    .live-items img {
-        max-width: 100%; /* Canlı öğeler resim maksimum genişlik */
-        height: auto; /* Canlı öğeler resim yükseklik otomatik */
-        border-radius: 10px; /* Canlı öğeler resim köşe yuvarlama */
-    }
-
-    .volunteer {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-bottom: 50px;
+        flex: 0 0 100%; /* Canlı öğeler */
     }
 
     .volunteer-item {
-        flex: 0 0 calc(50% - 20px); /* Gönüllü öğeler genişlik */
-        margin-bottom: 20px; /* Gönüllü öğeler arası boşluk */
-    }
-
-    .volunteer-item img {
-        max-width: 100%; /* Gönüllü öğeler resim maksimum genişlik */
-        height: auto; /* Gönüllü öğeler resim yükseklik otomatik */
-        border-radius: 10px; /* Gönüllü öğeler resim köşe yuvarlama */
+        flex: 0 0 100%; /* Gönüllü ayarları */
     }
 
     .vol {
