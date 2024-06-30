@@ -315,6 +315,20 @@ footer p{
         font-size: 18px; /* Font ayarları */
     }
 
+    #one, #two, #three {
+        text-align: center; /* İçerikleri ortala */
+        margin-bottom: 20px; /* Alt boşluk */
+    }
+
+    .lives {
+        display: flex;
+        flex-direction: column; /* Öğeleri alt alta sırala */
+    }
+
+    .live-items {
+        margin-bottom: 20px; /* Alt boşluk */
+    }
+
     .donate {
         padding-top: 20%; /* Padding ayarları */
     }
